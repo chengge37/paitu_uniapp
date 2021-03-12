@@ -1,0 +1,45 @@
+{
+	"name": "paitu-uniapp",
+	"version": "1.0.0",
+	"description": "uniapp\r ### 1、目录结构：\r #### components组件库\r - empty-page\r   空白页面，当前页面没有数据的时候显示这个页面。\r - list-detail\r   此页面是打算写详情的\r - mpvue-citypicker\r   在我的->收货地址那里用到城市的级联\r - onecol-list\r   单列卡片展示首页->器材 以及 首页->影棚 用到\r - popup-layer\r   首页->器材和首页->影棚 点击筛选的下拉层\r - range-slider\r   首页->器材和首页->影棚 点击筛选的下拉层里面的 滑块滑动\r - self-icon\r   自定义图标。这里的图标是从iconfont里面下载下来，然后拉.tts文件到[https://transfonter.org/]((https://transfonter.org/)这里, 默认打开了Family support，再打开Base64 encode。下面默认勾了WOFF和WOFF2，去掉这两个勾，勾上TTF，其它不用填，然后点击Convert转换即可。下载下来后stylesheet.css里面有一段覆盖掉self-icon里面即可。\r - self-swiper\r   这个没做传值，直接在里面写死了图片地址，只在首页轮播图用到\r - twocol-list\r   首页两列数据展示组件\r - uni-icon\r   uni自带的图标，官网没有预览图，要一个个看，这里只用到了星星评分\r - uni-load-more\r   加载更多\r - uni-rate\r   星星评分，连接到uni-icon\r #### pages页面\r - tabBar\r   下面的tabBar，这里在pages.json配置\r - home\r   对应tabBar-Home里面的进入里面\r - my\r   同上\r - news\r   同上（这里有左滑和顶置，如其它地方用到可以参考）\r - order\r   同上",
+	"main": "main.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "http://paitume.tpddns.cn:8099/paitu/uniapp.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@dcloudio/uni-helper-json": "^1.0.5",
+		"@dcloudio/uni-ui": "^1.1.9",
+		"base64-arraybuffer": "^0.2.0",
+		"component-emitter": "1.2.1",
+		"component-inherit": "0.0.3",
+		"eventemitter3": "^4.0.0",
+		"fastclick": "^1.0.6",
+		"has-cors": "1.1.0",
+		"html2canvas": "^1.0.0-rc.5",
+		"indexof": "0.0.1",
+		"javascript-state-machine": "^3.1.0",
+		"jweixin-module": "^1.6.0",
+		"localstorage-memory": "^1.0.3",
+		"lodash": "^4.17.15",
+		"parseqs": "0.0.5",
+		"parseuri": "0.0.5",
+		"qiniu-js": "^2.5.5",
+		"shortid": "^2.2.15",
+		"superagent": "^5.2.2",
+		"uni-simple-router": "^1.5.2",
+		"uuid": "^7.0.2",
+		"vconsole": "^3.3.4",
+		"vue-amap": "^0.5.10"
+	},
+	"devDependencies": {
+		"@types/html5plus": "^1.0.0",
+		"@types/uni-app": "^1.4.1"
+	}
+}

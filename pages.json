@@ -1,0 +1,940 @@
+{
+	"pages": [
+		{
+			"path": "pages/tabBar/home",
+			"style": {
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50,
+				"navigationBarTitleText": "派图租赁",
+				"app-plus": {
+					"titleNView": false,
+					"softinputNavBar": "none",
+					"scrollIndicator":"none"
+				}
+			}
+			
+		},
+		{
+			"path": "pages/tabBar/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor":"#651FFF",
+				"navigationBarTextStyle":"#ffffff",
+				"app-plus": {
+					"titleNView": false, 
+					"softinputNavBar": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/tabBar/category",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor":"#FFFFFF",
+						"titleColor":"#333333"
+					}, 
+					"softinputNavBar": "none"
+				}
+			}
+		}, 
+		{
+			"path": "pages/tabBar/cart",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor":"#FFFFFF",
+						"titleColor":"#333333"
+					}, 
+					"softinputNavBar": "none"
+				}
+			}
+		},
+		// #ifndef MP-WEIXIN
+		{
+            "path" : "pages/merchant/shop/shop",
+            "style" : {
+				"navigationBarTitleText": "商店"
+			}
+		},
+		
+		{
+            "path" : "pages/merchant/shop/shopList",
+            "style" : {
+				"navigationBarTitleText": "优选好店"
+			}
+		},
+		{
+            "path" : "pages/merchant/company/index",
+            "style" : {
+				"navigationBarTitleText": "公司主页"
+			}
+		},
+		{
+            "path" : "pages/merchant/personal/index",
+            "style" : {
+				"navigationBarTitleText": "个人主页"
+			}
+		},
+		{
+            "path" : "pages/merchant/personal/album",
+            "style" : {
+				"navigationBarTitleText": "作品集"
+			}
+		}
+		
+		,{
+			"path": "pages/activity/feiyan",
+			"style": {
+				"navigationBarTitleText": "防治肺炎"
+			}
+		},{
+			"path": "pages/activity/banner5",
+			"style": {
+				"navigationBarTitleText": "开工助力包"
+			}
+		},{
+			"path": "pages/activity/banner3",
+			"style": {
+				"navigationBarTitleText": "安心租赁"
+			}
+		}
+		,{
+			"path": "pages/my/message/message",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+			"path": "pages/my/message/detailList",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		
+		{
+			"path": "pages/my/about",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		}, {
+			"path": "pages/my/setting",
+			"style": {
+				"navigationBarTitleText": "个人设置"
+			}
+		},{
+			"path": "pages/my/activity",
+			"style": {
+				"navigationBarTitleText": "我的活动"
+			}
+		}, {
+			"path": "pages/my/address",
+			"style": {
+				"navigationBarTitleText": "收货地址"
+			}
+		}, {
+			"path": "pages/my/editAddress",
+			"style": {
+				"navigationBarTitleText": "编辑收货地址"
+			}
+		}, {
+			"path": "pages/my/bindPhone",
+			"style": {
+				"navigationBarTitleText": "注册/登录账号"
+			}
+		},  {
+			"path": "pages/my/updatePhone",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},{
+			"path": "pages/my/bindRealname",
+			"style": {
+				"navigationBarTitleText": "实名认证"
+			}
+		},{
+			"path": "pages/my/successStatus",
+			"style": {
+			}
+		},{
+			"path": "pages/my/updatePsw",
+			"style": {
+				"navigationBarTitleText": "设置密码"
+			}
+		},
+		{
+			"path": "pages/my/myList/myChat",
+			"style": {
+				"navigationBarTitleText": "聊天列表",
+				"enablePullDownRefresh":true
+			}
+		},{
+			"path": "pages/my/myList/chatBox",
+			"style": {
+				"navigationBarTitleText": "正在聊天"
+			}
+		},{
+			"path": "pages/my/myList/chatHistory",
+			"style": {
+				"navigationBarTitleText": "历史记录"
+			}
+		},
+		{
+			"path": "pages/my/myList/myActivity",
+			"style": {
+				"navigationBarTitleText": "我的活动"
+			}
+		},{
+			"path": "pages/my/myList/myComments",
+			"style": {
+				"navigationBarTitleText": "评价管理"
+			}
+		},{
+			"path": "pages/my/myList/comments/editOrAdd",
+			"style": {
+				"navigationBarTitleText": "评价管理"
+			}
+		},{
+			"path": "pages/my/myList/myDiscount",
+			"style": {
+				"navigationBarTitleText": "我的优惠券"
+			}
+		},{
+			"path": "pages/my/myList/myOfficial",
+			"style": {
+				"navigationBarTitleText": "关注公众号"
+			}
+		},{
+			"path": "pages/my/myList/myCooperation",
+			"style": {
+				"navigationBarTitleText": "我要合作"
+			}
+		},{
+			"path": "pages/my/myList/myAdvertise",
+			"style": {
+				"navigationBarTitleText": "商家产品"
+			}
+		},
+		{
+			"path": "pages/my/myList/myShop",
+			"style": {
+				"navigationBarTitleText": "成为租赁商"
+			}
+		},
+		{
+			"path": "pages/home/category/studio",
+			"style": {
+				"navigationBarTitleText": "影棚",
+				"onReachBottomDistance": 100
+			}
+		},{
+			"path": "pages/home/category/equipment",
+			"style": {
+				"navigationBarTitleText": "器材",
+				"onReachBottomDistance": 100
+			}
+		}, {
+			"path": "pages/home/category/activity",
+			"style": {
+				"navigationBarTitleText": "活动"
+			}
+		},{
+			"path": "pages/home/category/discount",
+			"style": {
+				"navigationBarTitleText": "优惠券"
+			} 
+		},{
+			"path": "pages/home/category/model",
+			"style": {
+				"navigationBarTitleText": "模特"
+			} 
+		},{
+			"path": "pages/home/category/service",
+			"style": {
+				"navigationBarTitleText": "服务"
+			} 
+		}, {
+			"path": "pages/home/category/equipmentDetail/equipmentDetail",
+			"style": {
+				"navigationBarTitleText": "设备详情"
+			}
+		}, {
+			"path": "pages/home/category/studioDetail/studioDetail",
+			"style": {
+				"navigationBarTitleText": "影棚详情",
+				"app-plus":{
+					"bounce":"none"
+				},
+				"enablePullDownRefresh": false
+			}
+		},{
+			"path": "pages/home/category/modelDetail/index",
+			"style": {
+				"navigationBarTitleText": "模特详情"
+			}
+		},{
+			"path": "pages/home/category/serviceDetail/index",
+			"style": {
+				"navigationBarTitleText": "摄影详情"
+			}
+		},{
+			"path": "pages/home/category/groupBooking/detail",
+			"style": {
+				"navigationBarTitleText": "拼拍详情"
+			}
+		},{
+			"path": "pages/home/category/comQues/allComments",
+			"style": {
+				"navigationBarTitleText": "全部评价"
+			}
+		},{
+			"path": "pages/home/category/comQues/allQuestions",
+			"style": {
+				"navigationBarTitleText": "全部问答"
+			}
+		},{
+			"path": "pages/home/category/comQues/commentDetail",
+			"style": {
+				"navigationBarTitleText": "评价详情"
+			}
+		},{
+			"path": "pages/home/category/comQues/questionDetail",
+			"style": {
+				"navigationBarTitleText": "问答详情"
+			}
+		}
+		,{
+            "path" : "pages/home/category/activityDetail/activityDetail",
+            "style" : {
+				"navigationBarTitleText": "活动详情"
+			}
+        },{
+            "path" : "pages/home/category/activityDetail/questionDetail",
+            "style" : {
+				"navigationBarTitleText": "评价详情"
+			}
+        },
+		{
+            "path" : "pages/home/flow/rentFlow",
+            "style" : {
+				"navigationBarTitleText": "用户租赁流程说明"
+			}
+        },{
+            "path" : "pages/home/flow/pickFlow",
+            "style" : {
+				"navigationBarTitleText": "取货流程"
+			}
+        },{
+            "path" : "pages/home/flow/feedback",
+            "style" : {
+				"navigationBarTitleText": "意见反馈"
+			}
+		}
+        ,{
+            "path" : "pages/home/search/search",
+            "style" : {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/home/select-city/select-city",
+			"style": {
+				"navigationBarTitleText": "选择城市",
+				"disableScroll": true,
+				"app-plus": {
+					"bounce": "none"
+				}				
+			}
+		}
+        ,{
+            "path" : "pages/order/orderPay",
+            "style" : {
+				"navigationBarTitleText": "订单支付"
+			}
+		}
+		,{
+            "path" : "pages/order/orderDetail",
+            "style" : {
+				"navigationBarTitleText": "订单详情"
+			}
+			
+		},{
+            "path" : "pages/order/orderCheckDetail",
+            "style" : {
+				"navigationBarTitleText": "核验清单"
+			}
+        },{
+            "path" : "pages/order/orderRefund",
+            "style" : {
+				"navigationBarTitleText": "退款"
+			}
+        }
+		
+        ,{
+            "path" : "pages/order/activity/bindPhone",
+            "style" : {
+				"navigationBarTitleText": "活动"
+			}
+        },{
+            "path" : "pages/order/activity/comfirmOrder",
+            "style" : {
+				"navigationBarTitleText": "活动"
+			}
+        },{
+            "path" : "pages/order/activity/orderStatus",
+            "style" : {
+				"navigationBarTitleText": "活动"
+			}
+		},
+		
+		{
+            "path" : "pages/order/model/orderPay",
+            "style" : {
+				"navigationBarTitleText": "订单支付"
+			}
+		},
+		{
+            "path" : "pages/order/service/orderPay",
+            "style" : {
+				"navigationBarTitleText": "订单支付"
+			}
+		},
+		{
+            "path" : "pages/order/cart/cart",
+            "style" : {
+				"navigationBarTitleText": "购物车"
+			}
+        },
+        
+        {
+            "path" : "pages/my/myCollection/myCollection",
+            "style" : {
+				"navigationBarTitleText": "收藏",
+				"disableScroll": true
+			}
+        }
+	    ,{
+            "path" : "pages/order/orderList/orderList",
+            "style" : {
+				"navigationBarTitleText": "订单列表",
+				"app-plus":{
+					"bounce":"none"
+				},
+				"enablePullDownRefresh": false				
+
+			}
+        },{
+            "path" : "pages/order/orderList/evaluate/evaluate",
+            "style" : {
+				"navigationBarTitleText": "评价"
+			}
+		},
+		// #endif
+		// #ifdef H5
+		{
+            "path" : "pages/my/login",
+            "style" : {}
+        },
+		// #endif
+		
+		// #ifdef APP-PLUS 
+		{
+            "path" : "pages/my/loginApp",
+            "style" : {}
+		},
+		// #endif
+		// #ifdef MP-ALIPAY
+		{
+		    "path" : "pages/my/loginMpAlipay",
+		    "style" : {}
+		},
+		// #endif
+		
+		
+		{
+            "path" : "pages/test/test",
+            "style" : {
+				"navigationBarTitleText": "测试"
+			}
+        }
+	],
+	// #ifdef MP-WEIXIN
+	"subPackages": [{
+        "root": "pages/home",
+        "pages": [
+			{
+				"path": "category/studio",
+				"style": {
+					"navigationBarTitleText": "影棚",
+					"onReachBottomDistance": 100
+				}
+			},{
+				"path": "category/equipment",
+				"style": {
+					"navigationBarTitleText": "器材",
+					"onReachBottomDistance": 100
+				}
+			}, {
+				"path": "category/activity",
+				"style": {
+					"navigationBarTitleText": "活动"
+				}
+			},{
+				"path": "category/discount",
+				"style": {
+					"navigationBarTitleText": "优惠券"
+				} 
+			},{
+				"path": "category/model",
+				"style": {
+					"navigationBarTitleText": "模特"
+				} 
+			},{
+				"path": "category/service",
+				"style": {
+					"navigationBarTitleText": "服务"
+				} 
+			}, {
+				"path": "category/equipmentDetail/equipmentDetail",
+				"style": {
+					"navigationBarTitleText": "设备详情"
+				}
+			}, {
+				"path": "category/studioDetail/studioDetail",
+				"style": {
+					"navigationBarTitleText": "影棚详情",
+					"app-plus":{
+						"bounce":"none"
+					},
+					"enablePullDownRefresh": false
+				}
+			},{
+				"path": "category/modelDetail/index",
+				"style": {
+					"navigationBarTitleText": "模特详情"
+				}
+			},{
+				"path": "category/serviceDetail/index",
+				"style": {
+					"navigationBarTitleText": "摄影详情"
+				}
+			},{
+				"path": "category/groupBooking/detail",
+				"style": {
+					"navigationBarTitleText": "拼拍详情"
+				}
+			},{
+				"path": "category/comQues/allComments",
+				"style": {
+					"navigationBarTitleText": "全部评价"
+				}
+			},{
+				"path": "category/comQues/allQuestions",
+				"style": {
+					"navigationBarTitleText": "全部问答"
+				}
+			},{
+				"path": "category/comQues/commentDetail",
+				"style": {
+					"navigationBarTitleText": "评价详情"
+				}
+			},{
+				"path": "category/comQues/questionDetail",
+				"style": {
+					"navigationBarTitleText": "问答详情"
+				}
+			}
+			,{
+				"path" : "category/activityDetail/activityDetail",
+				"style" : {
+					"navigationBarTitleText": "活动详情"
+				}
+			},{
+				"path" : "category/activityDetail/questionDetail",
+				"style" : {
+					"navigationBarTitleText": "评价详情"
+				}
+			},
+			{
+				"path" : "flow/rentFlow",
+				"style" : {
+					"navigationBarTitleText": "用户租赁流程说明"
+				}
+			},{
+				"path" : "flow/pickFlow",
+				"style" : {
+					"navigationBarTitleText": "取货流程"
+				}
+			},{
+				"path" : "flow/feedback",
+				"style" : {
+					"navigationBarTitleText": "意见反馈"
+				}
+			},
+			{
+				"path": "select-city/select-city",
+				"style": {
+					"navigationBarTitleText": "选择城市",
+					"disableScroll": true,
+					"app-plus": {
+						"bounce": "none"
+					}				
+				}
+			},{
+				"path" : "search/search",
+				"style" : {
+					"navigationBarTitleText": "搜索"
+				}
+			}
+		]
+	}
+	,{
+        "root": "pages/my",
+        "pages": [
+			{
+				"path": "message/message",
+				"style": {
+					"navigationBarTitleText": "消息"
+				}
+			},
+			{
+				"path": "message/detailList",
+				"style": {
+					"navigationBarTitleText": "消息"
+				}
+			},
+			
+			{
+				"path": "about",
+				"style": {
+					"navigationBarTitleText": "关于我们"
+				}
+			}, {
+				"path": "setting",
+				"style": {
+					"navigationBarTitleText": "个人设置"
+				}
+			},{
+				"path": "activity",
+				"style": {
+					"navigationBarTitleText": "我的活动"
+				}
+			}, {
+				"path": "address",
+				"style": {
+					"navigationBarTitleText": "收货地址"
+				}
+			}, {
+				"path": "editAddress",
+				"style": {
+					"navigationBarTitleText": "编辑收货地址"
+				}
+			}, {
+				"path": "bindPhone",
+				"style": {
+					"navigationBarTitleText": "注册/登录账号"
+				}
+			},  {
+				"path": "updatePhone",
+				"style": {
+					"navigationBarTitleText": ""
+				}
+			},{
+				"path": "bindRealname",
+				"style": {
+					"navigationBarTitleText": "实名认证"
+				}
+			},{
+				"path": "successStatus",
+				"style": {
+				}
+			},{
+				"path": "updatePsw",
+				"style": {
+					"navigationBarTitleText": "设置密码"
+				}
+			},
+			{
+				"path" : "loginApp",
+				"style" : {
+					"navigationBarTitleText": "登录账号"
+				}
+			},
+			{
+				"path": "myList/myChat",
+				"style": {
+					"navigationBarTitleText": "聊天列表"
+				}
+			},{
+				"path": "myList/chatBox",
+				"style": {
+					"navigationBarTitleText": "正在聊天"
+				}
+			},{
+				"path": "myList/chatHistory",
+				"style": {
+					"navigationBarTitleText": "历史记录"
+				}
+			},
+			{
+				"path": "myList/myActivity",
+				"style": {
+					"navigationBarTitleText": "我的活动"
+				}
+			},{
+				"path": "myList/myComments",
+				"style": {
+					"navigationBarTitleText": "评价管理"
+				}
+			},{
+				"path": "myList/comments/editOrAdd",
+				"style": {
+					"navigationBarTitleText": "评价管理"
+				}
+			},{
+				"path": "myList/myDiscount",
+				"style": {
+					"navigationBarTitleText": "我的优惠券"
+				}
+			},{
+				"path": "myList/myOfficial",
+				"style": {
+					"navigationBarTitleText": "关注公众号"
+				}
+			},{
+				"path": "myList/myCooperation",
+				"style": {
+					"navigationBarTitleText": "我要合作"
+				}
+			},{
+				"path": "myList/myAdvertise",
+				"style": {
+					"navigationBarTitleText": "商家产品"
+				}
+			},
+			{
+				"path": "myList/myShop",
+				"style": {
+					"navigationBarTitleText": "成为租赁商"
+				}
+			},
+			{
+				"path" : "myCollection/myCollection",
+				"style" : {
+					"navigationBarTitleText": "收藏",
+					"disableScroll": true
+				}
+			}
+		]
+	},
+	{
+		"root": "pages/order",
+        "pages": [
+			{
+				"path" : "orderPay",
+				"style" : {
+					"navigationBarTitleText": "订单支付"
+				}
+			}
+			,{
+				"path" : "orderDetail",
+				"style" : {
+					"navigationBarTitleText": "订单详情"
+				}
+				
+			},{
+				"path" : "orderCheckDetail",
+				"style" : {
+					"navigationBarTitleText": "核验清单"
+				}
+			},{
+				"path" : "orderRefund",
+				"style" : {
+					"navigationBarTitleText": "退款"
+				}
+			}
+			
+			,{
+				"path" : "activity/bindPhone",
+				"style" : {
+					"navigationBarTitleText": "活动"
+				}
+			},{
+				"path" : "activity/comfirmOrder",
+				"style" : {
+					"navigationBarTitleText": "活动"
+				}
+			},{
+				"path" : "activity/orderStatus",
+				"style" : {
+					"navigationBarTitleText": "活动"
+				}
+			},
+			
+			{
+				"path" : "model/orderPay",
+				"style" : {
+					"navigationBarTitleText": "订单支付"
+				}
+			},
+			{
+				"path" : "service/orderPay",
+				"style" : {
+					"navigationBarTitleText": "订单支付"
+				}
+			},
+			{
+				"path" : "cart/cart",
+				"style" : {
+					"navigationBarTitleText": "购物车"
+				}
+			}
+			
+			
+			,{
+				"path" : "orderList/orderList",
+				"style" : {
+					"navigationBarTitleText": "订单列表",
+					"app-plus":{
+						"bounce":"none"
+					},
+					"enablePullDownRefresh": false				
+	
+				}
+			},{
+				"path" : "orderList/evaluate/evaluate",
+				"style" : {
+					"navigationBarTitleText": "评价"
+				}
+			}
+			
+		]
+	},
+	{
+		"root": "pages/merchant",
+        "pages": [
+			{
+				"path" : "shop/shop",
+				"style" : {
+					"navigationBarTitleText": "商店"
+				}
+			},
+			
+			{
+				"path" : "shop/shopList",
+				"style" : {
+					"navigationBarTitleText": "优选好店"
+				}
+			},
+			{
+				"path" : "company/index",
+				"style" : {
+					"navigationBarTitleText": "公司主页"
+				}
+			},
+			{
+				"path" : "personal/index",
+				"style" : {
+					"navigationBarTitleText": "个人主页"
+				}
+			},
+			{
+				"path" : "personal/album",
+				"style" : {
+					"navigationBarTitleText": "作品集"
+				}
+			}
+		]
+	},
+	{
+		"root": "pages/activity",
+        "pages": [
+			{
+				"path": "feiyan",
+				"style": {
+					"navigationBarTitleText": "防治肺炎"
+				}
+			},{
+				"path": "banner5",
+				"style": {
+					"navigationBarTitleText": "开工助力包"
+				}
+			},{
+				"path": "banner3",
+				"style": {
+					"navigationBarTitleText": "安心租赁"
+				}
+			}
+		]
+	}],
+	"preloadRule": {
+        "pages/tabBar/home": {
+            "network": "all",
+            "packages": ["pages/home","pages/activity"]
+		},
+		"pages/tabBar/my": {
+            "network": "all",
+            "packages": ["pages/my","pages/order"]
+		},
+		"pages/tabBar/cart": {
+            "network": "all",
+            "packages": ["pages/order"]
+        }
+	},
+	// #endif
+
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "派图么",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#F8F8F8",
+		"backgroundColorTop": "#F8F8F8",
+		"backgroundColorBottom": "#F8F8F8"
+		
+	},
+	"tabBar": {
+		"borderStyle": "white",
+		"backgroundColor": "#FFFFFF",
+		"color": "#333333",
+		"selectedColor": "#651FFF",
+		"list": [{
+				"pagePath": "pages/tabBar/home",
+				"iconPath": "static/img/tabbar/home.png",
+				"selectedIconPath": "static/img/tabbar/home1.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tabBar/category",
+				"iconPath": "static/img/tabbar/fenlei.png",
+				"selectedIconPath": "static/img/tabbar/fenlei1.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/tabBar/cart",
+				"iconPath": "static/img/tabbar/cart.png",
+				"selectedIconPath": "static/img/tabbar/cart1.png",
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/tabBar/my",
+				"iconPath": "static/img/tabbar/wode.png",
+				"selectedIconPath": "static/img/tabbar/wode1.png",
+				"text": "我的"
+			}
+		]
+	},
+	"condition": {
+		"current": 0, 
+		"list": [{
+			"name": "", 
+			"path": "", 
+			"query": "" 
+		}]
+	
+	}
+	
+	
+
+}
